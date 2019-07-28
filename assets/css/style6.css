@@ -1,0 +1,66 @@
+/* index6.php */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #777777;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.title {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.red {
+    color: #ee2e2e;
+}
+
+.input_subject {
+    font-weight: 700;
+}
+
+.title_input {
+    width: 100%;
+}
+
+.input_text {
+    width: 100%;
+}
+
+.section_head {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+a {
+    cursor : pointer;
+  }
+
+.effect i {
+  transition: .8s;
+}
+
+.effect div {
+  margin: auto;
+  transition: .8s;
+  transition-delay: .8s;
+}
+
+/* check6.php */
+.button-gray {
+    border-color: #777777;
+    color: #555555;
+}

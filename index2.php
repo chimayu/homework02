@@ -40,11 +40,11 @@
             <div class="col-12 p-3">
                 <!-- <i class="fas fa-headphones title"></i> -->
                 <img src="assets/img/headphones-solid.svg" class="logo">
-                <span class="ml-3 title">Musica</span><span class="small pl-4"></span>Meet Your Own Music!</span>
+                <span class="ml-3 title">Blog??</span><span class="small pl-4"></span>blog??</span>
             </div>            
         </div>
 
-        <!-- <form method="POST" action="check.php">
+        <form method="POST" action="check.php">
             <div>
                 タイトル<br>
                 <input type="text" name="title">
@@ -54,7 +54,15 @@
                 <textarea name="content"></textarea>
             </div>
             <input type="submit" value="送信">
-        </form> -->
+        </form>
+
+        <br><br>
+        
+        <?php foreach ($results as $result): ?>
+            <p><?php echo 'タイトル: ' . h($result['blg_title']); ?></p>
+            <p><?php echo '内容: ' . h($result['blg_content']); ?></p>
+            <hr>
+        <?php endforeach; ?>
 
 
         <div class="row mt-5">
@@ -171,7 +179,7 @@
             <div class="col-1"></div>
             <div class="col-1"></div>
             <div class="col-1"></div>
-            <a class="col-1" href="index2.php">NEXT-></a>
+            <a class="col-1" href="index3.php">NEXT-></a>
         </div>
 
     </div>
