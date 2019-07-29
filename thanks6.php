@@ -2,7 +2,7 @@
     require_once('function.php');
     require_once('dbconnect.php'); // 追加
 
-     if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         header('Location: index.html');
     }
 
