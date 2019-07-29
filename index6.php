@@ -45,15 +45,15 @@
 
         <form method="POST" action="check6.php">
             <div>
-                <span class="mr-1 input_subject">タイトル</span><span class="red">*</span><br>
+                <span class="mr-1 input_subject">タイトル</span><span class="text-danger">*</span><br>
                 <input type="text" name="title" class="border border-info p-2 input_text mt-2 rounded">
             </div>
             <div class="mt-3">
-                <span class="mr-1 input_subject">名前</span><span class="red">*</span><br>
+                <span class="mr-1 input_subject">名前</span><span class="text-danger">*</span><br>
                 <input type="text" name="name" class="border border-info p-2 input_text mt-2 rounded">
             </div>
             <div class="mt-3">
-                <span class="mr-1 input_subject">内容</span><span class="red">*</span><br>
+                <span class="mr-1 input_subject">内容</span><span class="text-danger">*</span><br>
                 <textarea name="content" class="border border-info p-2 input_text mt-2 rounded"></textarea>
             </div>
             <input type="submit" value="送信" class="rounded-pill btn btn-info pl-4 pr-4 mt-2">
